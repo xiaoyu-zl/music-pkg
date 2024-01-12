@@ -1,0 +1,25 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+	"unblockneteasemusic": "./precompiled/app.js"
+},
+  "scripts": {
+    "pkg": "pkg . --out-path=dist/"
+  },
+	"pkg": {
+		"assets": [
+			"server.key",
+			"server.crt"
+		],
+		"targets": [
+			"node16-win-x64"
+		],
+		"outputPath": "dist"
+	},
+
+  "author": "",
+  "license": "ISC"
+}
