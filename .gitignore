@@ -1,3 +1,4 @@
+pkg-cache/
 node_modules/
 public
 dist

@@ -2,13 +2,17 @@
   "pkg": {
     "targets": ["node16-win-x64"],
     "outputPath": "dist",
-    "assets": ["node_modules/printer/lib/node_printer.node"]
+    "assets": [
+      "node_modules/printer/lib/node_printer.node",
+      "server.key",
+      "server.crt"
+    ]
   },
   "pkg_fetch_version": "3.4",
   "node_version": "16.16.0",
-  "pkg_cache_path": ".pkg-cache",
-  "icon": "ic.png",
-  "name": "myapp",
+  "pkg_cache_path": "pkg-cache",
+  "icon": "myapp.ico",
+  "name": "music",
   "description": "myapp description",
   "company": "mycompany",
   "version": "1.0.0",
